@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Zen+Dots&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body class="chat">
 
@@ -64,8 +64,12 @@
 
 <!-- Categoría / imagen -->
 <div class="chat-categoria">
-  <h2 class="titulo-chat">Categoría</h2>
-  <img src="imagenes/dj_padre.jpg" class="categoria" alt="Categoría">
+  <h2 class="titulo-chat">Genero</h2>
+  <picture class="chat-foto">
+  <source media="(min-width: 1200px)" srcset="imagenes/bzrp3.webp">
+  <source media="(min-width: 768px)" srcset="imagenes/bzrp4.jpg">
+  <img src="imagenes/bzrp2.jpg" alt="Imagen de BZRP Categoría">
+  </picture>
 
   <!-- Normas desktop (2x2 grid below image) -->
   <div class="normas-desktop">

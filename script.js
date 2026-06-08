@@ -102,118 +102,172 @@ var generos = [
     { nombre: 'Turf',         img: 'imagenes/turf.webp' },
   ]},
   { nombre: 'Rock', cantantes: [
-    { nombre: 'Intoxicados',  img: 'imagenes/intoxicados.webp' },
-    { nombre: 'Turf',         img: 'imagenes/turf.webp' },
-    { nombre: 'Intoxicados',  img: 'imagenes/intoxicados.webp' },
-    { nombre: 'Turf',         img: 'imagenes/turf.webp' },
+    { nombre: 'Nirvana',        img: 'imagenes/nirvana_group.jpg' },
+    { nombre: 'ACDC',         img: 'imagenes/acdc.webp' },
+    { nombre: 'Nirvana ',        img: 'imagenes/nirvana_group.jpg' },
+    { nombre: 'ACDC',         img: 'imagenes/acdc.webp' },
   ]},
   { nombre: 'Pop', cantantes: [
-    { nombre: 'YSY A',        img: 'imagenes/ysy.webp' },
-    { nombre: 'Duki',         img: 'duki.webp' },
-    { nombre: 'YSY A',        img: 'ysy.webp' },
-    { nombre: 'Duki',         img: 'duki.webp' },
+    { nombre: 'Miranda',        img: 'imagenes/michael-jackson.webp' },
+    { nombre: 'Michael Jackson',         img: 'imagenes/miranda.webp' },
+    { nombre: 'Michael Jackson ',        img: 'imagenes/michael-jackson.webp' },
+    { nombre: 'Miranda',         img: 'imagenes/miranda.webp' },
   ]},
   { nombre: 'Reggaetón', cantantes: [
-    { nombre: 'Trueno',       img: 'trueno.jpg' },
-    { nombre: 'YSY A',        img: 'ysy.webp' },
-    { nombre: 'Trueno',       img: 'trueno.jpg' },
-    { nombre: 'YSY A',        img: 'ysy.webp' },
+    { nombre: 'Nicky Jam',       img: 'imagenes/nickyjam.jpg' },
+    { nombre: 'Daddy Yankee',        img: 'imagenes/daddy_y.webp' },
+    { nombre: 'Nicky Jam',       img: 'imagenes/nickyjam.jpg' },
+    { nombre: 'Daddy Yankee',        img: 'imagenes/daddy_y.webp' },
   ]},
   { nombre: 'Trap', cantantes: [
-    { nombre: 'Duki',         img: 'duki.webp' },
-    { nombre: 'Trueno',       img: 'trueno.jpg' },
-    { nombre: 'YSY A',        img: 'ysy.webp' },
-    { nombre: 'Duki',         img: 'duki.webp' },
+    { nombre: 'Milo J',         img:'imagenes/milo.jpg'  },
+    { nombre: 'Trueno',       img:'imagenes/trueno.jpg'  },
+    { nombre: 'YSY A',        img:'imagenes/ysy.webp' },
+    { nombre: 'Duki',         img:'imagenes/duki.webp'  },
   ]},
   { nombre: 'Hip-Hop / Rap', cantantes: [
-    { nombre: 'Trueno',       img: 'trueno.jpg' },
-    { nombre: 'Duki',         img: 'duki.webp' },
-    { nombre: 'Trueno',       img: 'trueno.jpg' },
-    { nombre: 'Duki',         img: 'duki.webp' },
+    { nombre: 'Trueno',       img: 'imagenes/trueno.jpg' },
+    { nombre: 'Duki',         img: 'imagenes/duki.webp'},
+    { nombre: 'Trueno',       img: 'imagenes/trueno.jpg' },
+    { nombre: 'Duki',         img: 'imagenes/duki.webp'},
   ]},
   { nombre: 'Electrónica', cantantes: [
-    { nombre: 'DJ Padre',     img: 'dj_padre.jpg' },
-    { nombre: 'YSY A',        img: 'ysy.webp' },
-    { nombre: 'DJ Padre',     img: 'dj_padre.jpg' },
-    { nombre: 'YSY A',        img: 'ysy.webp' },
+    { nombre: 'DJ Padre',     img: 'imagenes/dj_padre.jpg' },
+    { nombre: 'BZRP',        img: 'imagenes/bzrp.jpg' },
+    { nombre: 'DJ Padre',     img: 'imagenes/dj_padre.jpg' },
+    { nombre: 'BZRP',        img: 'imagenes/bzrp.jpg' },
   ]},
   { nombre: 'Cumbia', cantantes: [
-    { nombre: 'Turf',         img: 'turf.webp' },
-    { nombre: 'Intoxicados',  img: 'intoxicados.webp' },
-    { nombre: 'Turf',         img: 'turf.webp' },
-    { nombre: 'Intoxicados',  img: 'intoxicados.webp' },
+    { nombre: 'Turf',         img: 'imagenes/valentino_m.webp' },
+    { nombre: 'Intoxicados',  img: 'imagenes/tym.webp' },
+    { nombre: 'Turf',         img: 'imagenes/valentino_m.webp' },
+    { nombre: 'Intoxicados',  img: 'imagenes/tym.webp' },
   ]},
   { nombre: 'Under Argentino', cantantes: [
-    { nombre: 'Duki',         img: 'duki.webp' },
-    { nombre: 'Turf',         img: 'turf.webp' },
-    { nombre: 'Duki',         img: 'duki.webp' },
-    { nombre: 'Turf',         img: 'turf.webp' },
+    { nombre: 'Fro',         img: 'imagenes/fro.jpg' },
+    { nombre: 'Little Boogie', img: 'imagenes/little_b.webp' },
+    { nombre: 'Fro',         img: 'imagenes/fro.jpg' },
+    { nombre: 'Turf',         img: 'imagenes/little_b.webp' },
   ]},
   { nombre: 'Indie', cantantes: [
-    { nombre: 'Turf',         img: 'turf.webp' },
-    { nombre: 'Intoxicados',  img: 'intoxicados.webp' },
-    { nombre: 'Turf',         img: 'turf.webp' },
-    { nombre: 'Intoxicados',  img: 'intoxicados.webp' },
+    { nombre: 'Carlos Zanetti Band',         img: 'imagenes/carlos-zanetti.webp' },
+    { nombre: 'Himnóticos',  img: 'imagenes/himnoticos.webp' },
+    { nombre: 'Carlos Zanetti Band',         img: 'imagenes/carlos-zanetti.webp' },
+    { nombre: 'Himnóticos',  img: 'imagenes/himnoticos.webp' },
   ]},
   { nombre: 'Música Clásica', cantantes: [
-    { nombre: 'DJ Padre',     img: 'dj_padre.jpg' },
-    { nombre: 'Trueno',       img: 'trueno.jpg' },
-    { nombre: 'DJ Padre',     img: 'dj_padre.jpg' },
-    { nombre: 'Trueno',       img: 'trueno.jpg' },
+    { nombre: 'Beethoven',     img: 'imagenes/beethoven.jpg' },
+    { nombre: 'Mozart',       img: 'imagenes/mozart.webp' },
+    { nombre: 'Beethoven',     img: 'imagenes/beethoven.jpg' },
+    { nombre: 'Mozart',       img: 'imagenes/mozart.webp' },
   ]},
 ];
 
 var currentGenreIndex = 4; // Trap por defecto
 
 /* -----------------------------------------------------------------------
-   CANTANTES PAGE — MOBILE
+   CANTANTES PAGE — MOBILE (circular grid)
    --------------------------------------------------------------------- */
-function renderMobileCantantes() {
-  var switcher = document.getElementById('generoSwitcher');
-  var grid     = document.getElementById('cantantesGrid');
-  if (!switcher || !grid) return;
+function renderMobileCantantesCircular() {
+  var nameEl = document.getElementById('genreCurrentName');
+  var grid   = document.getElementById('cantantesGridMobile');
+  if (!grid) return;
 
-  // Build genre buttons
-  switcher.innerHTML = '';
-  generos.forEach(function(g, i) {
-    var btn = document.createElement('button');
-    btn.className = 'genre-btn' + (i === currentGenreIndex ? ' active' : '');
-    btn.textContent = g.nombre;
-    btn.addEventListener('click', function() {
-      currentGenreIndex = i;
-      renderMobileCantantes();
-      renderTabletCantantes();
-    });
-    switcher.appendChild(btn);
-  });
-
-  // Build singer cards
   var genero = generos[currentGenreIndex];
+  if (nameEl) nameEl.textContent = genero.nombre;
+
   grid.innerHTML = '';
   genero.cantantes.forEach(function(c) {
     var a = document.createElement('a');
-    a.className = 'cantante-card';
+    a.className = 'cantante-card-mobile';
     a.href = 'info.html?nombre=' + encodeURIComponent(c.nombre) + '&img=' + encodeURIComponent(c.img) + '&genero=' + encodeURIComponent(genero.nombre);
     a.innerHTML = '<img src="' + c.img + '" alt="' + c.nombre + '">' +
-                  '<div class="cantante-card-nombre">' + c.nombre + '</div>';
+                  '<div class="cantante-card-mobile-nombre">' + c.nombre + '</div>';
     grid.appendChild(a);
   });
 }
 
 /* -----------------------------------------------------------------------
+   CANTANTES PAGE — MOBILE (CD + flechas género + cantante único)
+   --------------------------------------------------------------------- */
+var currentMobileSingerIndex = 0;
+
+function renderMobileCantantesNuevo() {
+  var genero = generos[currentGenreIndex];
+
+  if (currentMobileSingerIndex >= genero.cantantes.length) {
+    currentMobileSingerIndex = 0;
+  }
+
+  var titleEl  = document.getElementById('mobileGenreTitle');
+  var imgEl    = document.getElementById('mobileSingerImg');
+  var nameEl   = document.getElementById('mobileSingerName');
+  var linkEl   = document.getElementById('mobileSingerLink');
+
+  if (titleEl) titleEl.textContent = genero.nombre;
+
+  var cantante = genero.cantantes[currentMobileSingerIndex];
+  if (imgEl)  { imgEl.src = cantante.img; imgEl.alt = cantante.nombre; }
+  if (nameEl)   nameEl.textContent = cantante.nombre;
+  if (linkEl)   linkEl.href = 'info.html?nombre=' + encodeURIComponent(cantante.nombre) +
+                               '&img=' + encodeURIComponent(cantante.img) +
+                               '&genero=' + encodeURIComponent(genero.nombre);
+}
+
+// Flechas de género mobile
+(function() {
+  var prevG = document.getElementById('mobileGenrePrev');
+  var nextG = document.getElementById('mobileGenreNext');
+  if (!prevG || !nextG) return;
+  prevG.addEventListener('click', function() {
+    currentGenreIndex = (currentGenreIndex - 1 + generos.length) % generos.length;
+    currentMobileSingerIndex = 0;
+    renderMobileCantantesNuevo();
+    renderMobileCantantesCircular();
+    renderTabletCantantes();
+  });
+  nextG.addEventListener('click', function() {
+    currentGenreIndex = (currentGenreIndex + 1) % generos.length;
+    currentMobileSingerIndex = 0;
+    renderMobileCantantesNuevo();
+    renderMobileCantantesCircular();
+    renderTabletCantantes();
+  });
+})();
+
+// Flechas de cantante mobile
+(function() {
+  var prevBtn = document.getElementById('mobilePrev');
+  var nextBtn = document.getElementById('mobileNext');
+  if (!prevBtn || !nextBtn) return;
+  prevBtn.addEventListener('click', function() {
+    var total = generos[currentGenreIndex].cantantes.length;
+    currentMobileSingerIndex = (currentMobileSingerIndex - 1 + total) % total;
+    renderMobileCantantesNuevo();
+  });
+  nextBtn.addEventListener('click', function() {
+    var total = generos[currentGenreIndex].cantantes.length;
+    currentMobileSingerIndex = (currentMobileSingerIndex + 1) % total;
+    renderMobileCantantesNuevo();
+  });
+})();
+
+/* -----------------------------------------------------------------------
    CANTANTES PAGE — TABLET / DESKTOP
    --------------------------------------------------------------------- */
 function renderTabletCantantes() {
-  var nameEl    = document.getElementById('genreCurrentName');
-  var labelEl   = document.getElementById('tabletGenreLabel');
-  var tituloEl  = document.getElementById('tabletTitulo');
-  var listEl    = document.getElementById('tabletCantantesList');
+  var nameEl       = document.getElementById('genreCurrentName');
+  var nameDesktopEl= document.getElementById('genreCurrentNameDesktop');
+  var labelEl      = document.getElementById('tabletGenreLabel');
+  var tituloEl     = document.getElementById('tabletTitulo');
+  var listEl       = document.getElementById('tabletCantantesList');
   if (!listEl) return;
 
   var genero = generos[currentGenreIndex];
-  if (nameEl)   nameEl.textContent  = genero.nombre;
-  if (labelEl)  labelEl.textContent = 'Género';
-  if (tituloEl) tituloEl.textContent = 'Cantantes';
+  if (nameEl)        nameEl.textContent       = genero.nombre;
+  if (nameDesktopEl) nameDesktopEl.textContent = genero.nombre;
+  if (labelEl)       labelEl.textContent      = 'Género';
+  if (tituloEl)      tituloEl.textContent     = 'Cantantes';
 
   listEl.innerHTML = '';
   genero.cantantes.forEach(function(c) {
@@ -228,13 +282,16 @@ function renderTabletCantantes() {
 
 function changeGenreTablet(dir) {
   currentGenreIndex = (currentGenreIndex + dir + generos.length) % generos.length;
-  renderMobileCantantes();
+  currentMobileSingerIndex = 0;
+  renderMobileCantantesNuevo();
+  renderMobileCantantesCircular();
   renderTabletCantantes();
 }
 
 // Init cantantes page
 if (document.querySelector('.pag-cantantes')) {
-  renderMobileCantantes();
+  renderMobileCantantesNuevo();
+  renderMobileCantantesCircular();
   renderTabletCantantes();
 }
 
@@ -250,14 +307,47 @@ if (document.querySelector('.pag-cantantes')) {
   var img     = params.get('img')    || 'duki.webp';
   var genero  = params.get('genero') || '';
 
-  var bios = {
-    'Duki': 'Mauro Ezequiel Lombardo, conocido como Duki, es uno de los referentes del trap y el rap argentino. Nacido en Buenos Aires, comenzó su carrera en las batallas de freestyle y se convirtió en una figura clave del movimiento urbano latinoamericano. Sus álbumes mezclan trap, drill y pop urbano.',
-    'Trueno': 'Mateo Palacios Corazzina, Trueno, es un rapero y cantante argentino que nació en La Boca. Reconocido como uno de los mejores freestylers de la región, fusiona el rap con ritmos afro y urbanos. Ha colaborado con artistas internacionales y lleva la cultura del rap bonaerense al mundo.',
-    'YSY A': 'Agustín Gimenez, YSY A, es un trapero y rapero argentino de Villa del Parque. Es parte del colectivo BZRP y uno de los pioneros del trap en Argentina. Su estilo crudo y auténtico lo posicionó como referente del género urbano en el país.',
-    'Intoxicados': 'Intoxicados es una banda de rock argentino fundada por Pity Álvarez. Con un estilo punk-rock crudo y letras que retratan la realidad de la clase trabajadora porteña, se convirtieron en íconos del rock under y masivo. Sus shows son legendarios por su energía y la conexión con el público.',
-    'Turf': 'Turf es una banda de rock y pop argentino reconocida por sus ritmos festivos y su energía contagiosa. Formados en los años 90, combinan rock, funk y pop con un sonido inconfundiblemente argentino que los convirtió en una de las bandas más queridas del país.',
-    'DJ Padre': 'DJ Padre es uno de los productores y DJs más influyentes de la escena electrónica argentina. Con décadas de trayectoria, mezcla géneros como cumbia, electronic y underground, llevando la música de baile a nuevas generaciones con una propuesta fresca y vanguardista.',
-  };
+var bios = {
+  'Duki': 'Mauro Ezequiel Lombardo, conocido como Duki, es uno de los máximos referentes del trap argentino. Surgió de las batallas de freestyle y ayudó a popularizar la música urbana argentina a nivel internacional.',
+
+  'Trueno': 'Mateo Palacios Corazzina, conocido como Trueno, es un rapero argentino nacido en La Boca. Destaca por su combinación de rap, freestyle y ritmos urbanos con influencias latinoamericanas.',
+
+  'YSY A': 'Alejo Nahuel Acosta, conocido como YSY A, es uno de los pioneros del trap argentino. Fundador de El Quinto Escalón, se caracteriza por su estilo innovador y su independencia artística.',
+
+  'Milo J': 'Milo J es un cantante y compositor argentino de música urbana que ganó popularidad siendo muy joven. Su estilo combina trap, rap y melodías emocionales que conectan con las nuevas generaciones.',
+
+  'Intoxicados': 'Intoxicados fue una banda de rock argentino fundada por Pity Álvarez. Sus canciones mezclan rock, reggae y punk, convirtiéndose en una de las agrupaciones más populares de los años 2000.',
+
+  'Turf': 'Turf es una banda argentina de rock y pop reconocida por sus melodías pegadizas y su energía en vivo. Desde los años 90 se mantiene como una de las bandas más queridas del país.',
+
+  'Nirvana': 'Nirvana fue una banda estadounidense liderada por Kurt Cobain. Considerada uno de los mayores exponentes del grunge, revolucionó la música alternativa durante la década de 1990.',
+
+  'ACDC': 'AC/DC es una legendaria banda australiana de hard rock fundada en 1973. Con éxitos como "Back in Black" y "Highway to Hell", se convirtió en una de las bandas más influyentes de la historia.',
+
+  'Miranda': 'Miranda! es un dúo argentino de pop formado por Ale Sergi y Juliana Gattas. Se destaca por sus canciones pegadizas, su estilo extravagante y su enorme éxito en Latinoamérica.',
+
+  'Michael Jackson': 'Michael Jackson fue un cantante, compositor y bailarín estadounidense conocido como el "Rey del Pop". Su impacto en la música y el entretenimiento lo convirtió en una de las figuras más importantes de todos los tiempos.',
+
+  'Nicky Jam': 'Nicky Jam es un cantante estadounidense de ascendencia puertorriqueña considerado una de las figuras más importantes del reggaetón. Alcanzó fama mundial con éxitos como "El Perdón".',
+
+  'Daddy Yankee': 'Daddy Yankee es un cantante y productor puertorriqueño reconocido como uno de los pioneros del reggaetón. Su éxito "Gasolina" ayudó a popularizar el género en todo el mundo.',
+
+  'DJ Padre': 'DJ Padre es un DJ y productor asociado a la escena electrónica argentina. Su propuesta combina música electrónica con sonidos modernos orientados a la pista de baile.',
+
+  'BZRP': 'Bizarrap, también conocido como BZRP, es un productor argentino reconocido internacionalmente por sus Music Sessions. Ha colaborado con artistas de todo el mundo y es una de las figuras más influyentes de la música urbana actual.',
+
+  'Fro': 'Fro es un artista emergente de la escena urbana argentina. Su música combina influencias del trap y el rap con una identidad propia dentro del movimiento under nacional.',
+
+  'Little Boogie': 'Little Boogie es un artista independiente de la escena under argentina. Su propuesta mezcla sonidos urbanos contemporáneos con una fuerte impronta personal.',
+
+  'Carlos Zanetti Band': 'Carlos Zanetti Band es un proyecto musical independiente que combina influencias del rock alternativo, el indie y la música contemporánea en una propuesta original.',
+
+  'Himnóticos': 'Himnóticos es una banda argentina de rock alternativo e indie. Se caracteriza por melodías modernas, letras cuidadas y una fuerte presencia dentro de la escena independiente.',
+
+  'Beethoven': 'Ludwig van Beethoven fue un compositor y pianista alemán considerado uno de los mayores genios de la música clásica. Sus obras marcaron la transición entre el clasicismo y el romanticismo.',
+
+  'Mozart': 'Wolfgang Amadeus Mozart fue un compositor austríaco y una de las figuras más importantes de la música clásica. Su talento extraordinario le permitió crear algunas de las obras más famosas de la historia.'
+};
 
   var bio = bios[nombre] || 'Artista de la escena musical argentina. Conocido por su estilo único y su capacidad para conectar con el público a través de la música. Explorá su discografía y descubrí por qué es uno de los favoritos de Feel Tune.';
 

@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Zen+Dots&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body class="pag-cantantes">
 
@@ -36,21 +36,49 @@
 
 <div class="contenedor-cantantes">
 
-  <!-- MOBILE: genre buttons + grid -->
-  <div class="genero-switcher" id="generoSwitcher"></div>
-  <div class="cantantes-grid" id="cantantesGrid"></div>
+  <!-- ===== MOBILE: CD + flechas género + cantante único con flechas ===== -->
+  <div class="mobile-cantantes-wrap" id="mobileCantantesWrap">
+    <img src="imagenes/cd.png" class="mobile-cd-img" alt="disco">
+    <div class="mobile-genre-nav">
+      <button class="mobile-arrow-btn" id="mobileGenrePrev">&#8249;</button>
+      <div class="mobile-genre-title" id="mobileGenreTitle">Trap</div>
+      <button class="mobile-arrow-btn" id="mobileGenreNext">&#8250;</button>
+    </div>
+    <div class="mobile-cantantes-section">
+      <div class="mobile-seccion-label">Cantantes</div>
+      <div class="mobile-singer-row">
+        <button class="mobile-arrow-btn" id="mobilePrev">&#8249;</button>
+        <a class="mobile-singer-circle-wrap" id="mobileSingerLink" href="#">
+          <img class="mobile-singer-circle" id="mobileSingerImg" src="" alt="">
+          <span class="mobile-singer-name" id="mobileSingerName"></span>
+        </a>
+        <button class="mobile-arrow-btn" id="mobileNext">&#8250;</button>
+      </div>
+    </div>
+  </div>
 
-  <!-- TABLET+DESKTOP: CD sidebar + list -->
+  <!-- ===== TABLET: CD centrado + grilla circular ===== -->
+  <div class="disco-wrap" id="discoCdMobile" style="padding-top: 80px;">
+    <img src="imagenes/cd.png" class="disco-cd" alt="disco" id="discoCdImg">
+    <div class="genre-nav">
+      <button class="genre-arrow" onclick="changeGenreTablet(-1)">&#8249;</button>
+      <span class="genre-current-name" id="genreCurrentName">Trap</span>
+      <button class="genre-arrow" onclick="changeGenreTablet(1)">&#8250;</button>
+    </div>
+  </div>
+  <div class="mobile-cantantes-titulo">Cantantes</div>
+  <div class="cantantes-grid-mobile" id="cantantesGridMobile"></div>
+
+  <!-- ===== DESKTOP: CD sidebar + lista ===== -->
   <div class="cantantes-tablet-layout">
     <div class="disco-wrap">
       <img src="imagenes/cd.png" class="disco-cd" alt="disco" id="discoCd">
       <div class="genre-nav">
         <button class="genre-arrow" onclick="changeGenreTablet(-1)">&#8249;</button>
-        <span class="genre-current-name" id="genreCurrentName">Trap</span>
+        <span class="genre-current-name" id="genreCurrentNameDesktop">Trap</span>
         <button class="genre-arrow" onclick="changeGenreTablet(1)">&#8250;</button>
       </div>
     </div>
-
     <div>
       <div class="tablet-genre-label" id="tabletGenreLabel">Género</div>
       <div class="tablet-titulo" id="tabletTitulo">Cantantes</div>
